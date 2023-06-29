@@ -14,10 +14,12 @@ body {
 h1, h2 {
   color: var(--clr--veryDarkDesaturatedBlue);
   font-size: 18px;
+  font-weight: 700;
 }
 
 p {
   color: var(--clr-darkGray);
+  font-weight: 400;
 }
 
 main {
@@ -29,7 +31,7 @@ main {
 .card {
   background-color: white;
   max-width: 375px;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   text-align: center;
   position: relative;
 }
@@ -37,8 +39,8 @@ main {
   width: 100%;
 }
 .card .top img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .card .profile-img {
   position: absolute;
@@ -59,12 +61,21 @@ main {
   color: var(--clr-darkGray);
 }
 .card hr {
+  margin: 0;
   color: var(--clr-darkGray);
 }
 .card .flex {
   padding: 10px 20px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   gap: 1rem;
   justify-content: space-around;
+}
+.card .flex h2 {
+  margin: 0;
+}
+.card .flex .small {
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
