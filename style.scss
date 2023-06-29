@@ -24,6 +24,24 @@ main{
     display: grid;
     place-items: center;
     height: 100dvh;
+    .bgtop{
+        bottom: 40%;
+        right: 50%;
+        position: fixed;
+        z-index: -999;
+        svg{
+            height: 70%;
+        }
+    }
+    .bgbottom{
+        top: 40%;
+        left: 50%;
+        position: fixed;
+        z-index: -999;
+        svg{
+            height: 70%;
+        }
+    }
 }
 .card{
     background-color: white;

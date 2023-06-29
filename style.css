@@ -27,6 +27,24 @@ main {
   place-items: center;
   height: 100dvh;
 }
+main .bgtop {
+  bottom: 40%;
+  right: 50%;
+  position: fixed;
+  z-index: -999;
+}
+main .bgtop svg {
+  height: 70%;
+}
+main .bgbottom {
+  top: 40%;
+  left: 50%;
+  position: fixed;
+  z-index: -999;
+}
+main .bgbottom svg {
+  height: 70%;
+}
 
 .card {
   background-color: white;
